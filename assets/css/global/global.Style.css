@@ -173,6 +173,9 @@ body {
   max-width: 1440px;
   width: 100%;
 }
+.nav_flag {
+  height: 24px;
+}
 .nav_contact, .nav_list {
   display: flex;
   gap: 10px;
@@ -212,9 +215,6 @@ body {
   border-radius: 50px;
   border: 1px solid #2f2f2f;
   background: #1f1f1f;
-}
-.nav_contact__language img, .nav_list__language img {
-  height: 24px;
 }
 .nav_contact:hover {
   transform: scale(0.97);
